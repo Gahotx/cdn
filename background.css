@@ -1,0 +1,135 @@
+/* Valine样式魔改 */
+#vcomment button {
+    padding: 0.3rem 0.8rem;
+    border-color: #fff;
+    background-color: #e58a8a;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+    float: right;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    font-size: 0.7rem;
+    transition: all 0.3s;
+}
+
+/* 作者卡片栏添加一个彩花背景 */
+/* .is-center:hover {
+    background: url(https://cdn.jsdelivr.net/gh/Gahotx/cdn@master/snow.gif);
+} */
+
+/* 菜单栏子标签添加右移动态效果 */
+#nav .menus_items .menus_item .menus_item_child li a:hover {
+    transform: translateX(.3rem);
+}
+
+#nav .menus_items .menus_item .menus_item_child {
+    border-radius: 5px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+/*文章标题居中*/
+#page h1.page-title, #post>#post-info {
+    text-align: center;
+}
+
+/*页脚美化*/
+#footer-wrap {
+    line-height: 2.5;
+    padding: 1.5rem 1rem;
+}
+
+/* 全局自定义思源宋体字体 */
+body {
+	font-family: "Linux Biolinum", "Noto Serif SC", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+}	
+
+#nav #site-name {
+	font-family: 'Comic Sans MS',sans-serif;
+	font-size: 23px;
+}
+
+#nav .site-page {
+	font-family: 'Source Sans Pro',"Noto Serif SC",Helvetica,Arial,Menlo,Monaco,monospace,sans-serif;
+	font-size: 0.8rem;
+}
+
+#page-header.full_page #site-title {
+	font-family: "Segoe Script","Ink Free","Segoe Print";
+}
+
+/* 哔哔美化 */
+.xk-card .xk-card-content[data-v-185689ea] {
+    white-space: initial!important;
+}
+
+#article-container img {
+    margin-bottom: 0;
+}
+
+.xk-card-content {
+    font-size: .8rem!important;
+}
+
+.xk-card-label {
+    /* background-color: #3B3D42!important; */
+    font-size: .1rem!important;
+}
+
+.latestBB {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #article-container .xk-card-content[data-v-185689ea] .fancybox, #article-container .xk-card-content[data-v-185689ea] video {
+        max-width: 50%!important;
+    }
+}
+
+/* 去除时钟背景 */
+#aside-content.aside-content > .sticky_layout > .card-widget.card-clock > .card-glass > .card-background {
+    background-color: unset ;
+    box-shadow: unset ;
+}
+
+/* 留言板每日一言 */
+/* .poem {
+    position: relative;
+    #width: 
+    #max-width: 
+    border: 2px solid #797979;
+    border-top: 0;
+    text-align: center;
+    #margin: 
+} */
+
+/* .poem-left {
+    left: 0;
+}
+
+.poem-right {
+    right: 0;
+}
+
+.poem-border {
+    position: absolute;
+    height: ;
+    width: ;
+    background-color: #797979;
+} */
