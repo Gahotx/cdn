@@ -79,7 +79,7 @@ body {
     white-space: initial!important;
 }
 
-#article-container img {
+#article-container .xk-card-content[data-v-185689ea] .fancybox img {
     margin-bottom: 0;
 }
 
