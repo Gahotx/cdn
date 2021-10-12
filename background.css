@@ -62,12 +62,12 @@ body {
 
 #nav #site-name {
 	font-family: 'Comic Sans MS',sans-serif;
-	font-size: 23px;
+	font-size: 22px;
 }
 
 #nav .site-page {
 	font-family: 'Source Sans Pro',"Noto Serif SC",Helvetica,Arial,Menlo,Monaco,monospace,sans-serif;
-	font-size: 0.8rem;
+	font-size: 15px;
 }
 
 #page-header.full_page #site-title {
