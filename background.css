@@ -77,10 +77,12 @@ body {
 /* 哔哔美化 */
 .xk-card .xk-card-content[data-v-185689ea] {
     white-space: initial!important;
+    margin-bottom: -17px;
 }
 
 #article-container .xk-card-content[data-v-185689ea] .fancybox img {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .xk-card-content {
