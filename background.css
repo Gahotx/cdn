@@ -86,12 +86,12 @@ body {
 }
 
 .xk-card-content {
-    font-size: .8rem!important;
+    font-size: 16px;
 }
 
 .xk-card-label {
     /* background-color: #3B3D42!important; */
-    font-size: .1rem!important;
+    font-size: 12px!important;
 }
 
 .latestBB {
