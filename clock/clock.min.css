@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.2.2.
+ * Original file: /npm/gahotx-cdn@1.0.3/clock.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+@font-face{font-family:DS-Digital;src:url("https://unpkg.zhimg.com/gahotx-cdn@latest/clock/DS-Digital.TTF");font-display:swap}#hexo_electric_clock{padding:5px}.card-clock{padding:0!important}.card-background{height:123px;margin:15px;border-radius:8px;z-index:2}.clock-row{font-family:DS-Digital;font-weight:400;color:#000;display:flex;justify-content:space-between;flex-wrap:nowrap;white-space:nowrap}.card-clock-clockdate,.card-clock-ip{text-align:left;flex-basis:calc(40% - 5px)}.card-clock-location,.card-clock-weather{text-align:center;flex-basis:calc(30% - 5px)}.card-clock-dackorlight,.card-clock-humidity{text-align:right;flex-basis:calc(30% - 5px)}.card-clock-time{flex:1;font-family:DS-Digital;font-size:38px;text-align:center;line-height:1.5}[data-theme=dark] .clock-row{color:#fff}
+/*# sourceMappingURL=/sm/ebba3b0416265f56eb34da7de2b8b29adef5e15e9eba4e69110a613c9661fe27.map */
