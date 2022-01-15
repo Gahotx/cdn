@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "DS-Digital";
-    src: url("https://unpkg.zhimg.com/gahotx-cdn@latest/clock/DS-Digital.TTF");
+    font-family: "DS-Digital" !important;
+    src: url("https://unpkg.zhimg.com/gahotx-cdn@1.0.9/clock/DS-Digital.TTF");
     font-display: swap;
 }
 #hexo_electric_clock {
@@ -16,7 +16,7 @@
     z-index: 2;
 }
 .clock-row {
-    font-family: "DS-Digital";
+    font-family: "DS-Digital" !important;
     font-weight: 400;
     color: #000;
     display: flex;
@@ -41,7 +41,7 @@
 }
 .card-clock-time {
     flex: 1;
-    font-family: "DS-Digital";
+    font-family: "DS-Digital" !important;
     font-size: 38px;
     text-align: center;
     line-height: 1.5;

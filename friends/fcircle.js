@@ -6,7 +6,7 @@ var opentype = '_blank';  //'_blank'打开新标签,'_self'本窗口打开
 var nofollow = true; //禁止搜索引擎抓取
 // 自定义loading图 例如: var loadingCutom = '<i class="fa fa-spinner fa-spin"></i>'
 // 自定义loading图 例如: var loadingCutom = '<img src="你的图片地址" alt="加载中...">'
-var loadingCutom = '<img src="https://unpkg.zhimg.com/gahotx-cdn@1.0.0/photo/d2d5e983e2961.gif" alt="加载中...">'
+var loadingCutom = '<img src="https://unpkg.zhimg.com/gahotx-cdn@1.0.9/photo/d2d5e983e2961.gif" alt="加载中...">'
 
 //处理数据
 
@@ -61,7 +61,7 @@ var data_handle = (nofollow,data, maxnumber) => {
       error += 1;
     }
   }
-  var html_item = '<h2>统计信息</h2>';
+  var html_item = '<h2><i class="far fa-chart-bar"></i> &nbsp;统计信息</h2>';
   html_item += '<div id="info_user_pool" class="moments-item info_user_pool" style="">';
   html_item += '<div class="moments_chart"><span class="moments_post_info_title">当前友链：</span><span class="moments_post_info_number">' + user_lenth + ' 个</span><br><span class="moments_post_info_title">爬取失败：</span><span class="moments_post_info_number">' + error + ' 个</span><br></div>';
   html_item += '<div class="moments_chart"><span class="moments_post_info_title">活跃友链：</span><span class="moments_post_info_number">' + unique_live_link + ' 个</span><br><span class="moments_post_info_title">当前库存：</span><span class="moments_post_info_number">' + listlenth + ' 篇</span><br></div>';
@@ -69,7 +69,7 @@ var data_handle = (nofollow,data, maxnumber) => {
   html_item += '</div>';
 
   for (var month_item of datalist_slice) {
-    html_item += '<h2>' + month_item[0] + '</h2>';
+    html_item += '<h2><i class="far fa-calendar-alt"></i> &nbsp;' + month_item[0] + '</h2>';
     for (var post_item of month_item[1]) {
       var rel = '';
       if (nofollow && opentype == '_blank'){
@@ -99,7 +99,7 @@ var data_handle = (nofollow,data, maxnumber) => {
         'onclick="load_more_post()">加载更多...</button>' +
         '</div>'
   }
-  html_item += '<style>.moments-item-info span{padding-left:.3rem;padding-right:.3rem}.moments_post_time time{padding-left:.3rem;cursor:default}.moments_post_info_title{font-weight:700}.moments_post_info_number{float:right}.moments_chart{align-items:flex-start;flex:1;width:100px;height:60px;margin:20px}@media screen and (max-width:500px){.info_user_pool{padding:10px;flex-direction:column;max-height:200px}.moments_chart{flex:0;width:100%;height:160px;margin:0}}.moments-item:before{border:0}@media screen and (min-width:500px){.moments_post_time{float:right}}.moments_load_button{margin-top: 20px;-webkit-transition-duration:.4s;transition-duration:.4s;text-align:center;border:1px solid #ededed;border-radius:.3em;display:inline-block;background:transparent;color:#555;padding:.5em 1.25em}.moments_load_button:hover{color:#3090e4;border-color:#3090e4}.moments-item{position:relative;display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;margin-left: .5rem;padding: 14px 0;border-bottom: 1px solid #e8edf9;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;transition:all .2s ease-in-out;border-radius:2px}.moments-item-img{overflow:hidden;width:80px;height:80px}.moments-item-img img{max-width:100%;width:100%;height:100%;object-fit:cover}.moments-item-info{-webkit-box-flex:1;-moz-box-flex:1;-o-box-flex:1;box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;padding:0 .8rem}.moments-item-title{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;font-size:1.1em;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;-ms-transition:all .3s;transition:all .3s;-webkit-line-clamp:1}#info_user_pool { margin-top: -15px; }</style>'
+  html_item += '<style>.moments-item-info span{padding-left:.3rem;padding-right:.3rem}.moments_post_time time{padding-left:.3rem;cursor:default}.moments_post_info_title{font-weight:700}.moments_post_info_number{float:right}.moments_chart{align-items:flex-start;flex:1;width:100px;height:60px;margin:20px}@media screen and (max-width:500px){.info_user_pool{padding:10px;flex-direction:column;max-height:200px}.moments_chart{flex:0;width:100%;height:160px;margin:0}}.moments-item:before{border:0}@media screen and (min-width:500px){.moments_post_time{float:right}}.moments_load_button{margin-top: 20px;-webkit-transition-duration:.4s;transition-duration:.4s;text-align:center;border:1px solid #555;border-radius:.3em;display:inline-block;background:transparent;color:#555;padding:.5em 1.25em}.moments_load_button:hover{color:#3090e4;border-color:#3090e4}.moments-item{position:relative;display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;margin-left: .5rem;padding: 14px 0;border-bottom: 1px solid #e8edf9;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;transition:all .2s ease-in-out;border-radius:1px}.moments-item-img{overflow:hidden;width:80px;height:80px}.moments-item-img img{max-width:100%;width:100%;height:100%;object-fit:cover}.moments-item-info{-webkit-box-flex:1;-moz-box-flex:1;-o-box-flex:1;box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;padding:0 .8rem}.moments-item-title{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;font-size:1.1em;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;-ms-transition:all .3s;transition:all .3s;-webkit-line-clamp:1}</style>'
 
 
 
