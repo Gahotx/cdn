@@ -69,7 +69,7 @@ var data_handle = (nofollow,data, maxnumber) => {
   html_item += '</div>';
 
   for (var month_item of datalist_slice) {
-    html_item += '<h2><i class="far fa-calendar-alt"></i> &nbsp;' + month_item[0] + '</h2>';
+    html_item += '<h2><i class="fas fa-history"></i> &nbsp;' + month_item[0] + '</h2>';
     for (var post_item of month_item[1]) {
       var rel = '';
       if (nofollow && opentype == '_blank'){
