@@ -1,6 +1,6 @@
 @font-face {
     font-family: "DS-Digital" !important;
-    src: url("https://unpkg.zhimg.com/gahotx-cdn@1.0.9/clock/DS-Digital.TTF");
+    src: url("https://npm.elemecdn.com/gahotx-cdn@1.0.14/clock/DS-Digital.TTF");
     font-display: swap;
 }
 #hexo_electric_clock {
